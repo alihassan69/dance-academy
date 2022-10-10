@@ -1,0 +1,25 @@
+doctype html
+html
+    head
+        
+        style 
+            include ../static/style.css
+    body
+        nav#navbar 
+             ul 
+                div#logo
+                    img(src="/static/logo.png")
+        
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Contact Us]
+        section#introSection
+            div.line1 Welcome to Dance Academy 
+            div.line2 Eat Sleep Dance Repeat 
+        section#sponsorSection 
+            | section for sponsor 
+        footer#footer
+            | Copyright © 2022 danceacademy.com | All rights reserved 
+        script 
+            include ../static/index.js
